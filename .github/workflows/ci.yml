@@ -97,8 +97,7 @@ jobs:
       - name: Build (cross)
         if: matrix.settings.use-cross
         run: |
-          cross build --release --target ${{ matrix.settings.target }}
-          npx napi artifacts --target ${{ matrix.settings.target }} --output-dir .
+          npx napi build --release --platform --strip --target ${{ matrix.settings.target }} --use-cross
 
       - name: Upload artifact
         uses: actions/upload-artifact@b4b15b8c7c6ac21ea08fcf65892d2ee8f75cf882 # v4.4.3
