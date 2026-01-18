@@ -1,0 +1,44 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:napi.rs)",
+      "WebFetch(domain:docs.rs)",
+
+      "Bash(bd create:*)",
+      "Bash(bd update:*)",
+      "Bash(bd close:*)",
+      "Bash(bd show:*)",
+      "Bash(bd list:*)",
+      "Bash(bd ready:*)",
+      "Bash(bd blocked:*)",
+      "Bash(bd dep add:*)",
+      "Bash(bd sync:*)",
+      "Bash(bd stats:*)",
+      "Bash(bd doctor:*)",
+
+      "Bash(ls:*)",
+      "Bash(pwd:*)",
+      "Bash(wc:*)",
+
+      "Bash(git status:*)",
+      "Bash(git diff:*)",
+      "Bash(git log:*)",
+      "Bash(git show:*)",
+      "Bash(git branch:*)",
+      "Bash(git rev-parse:*)",
+      "Bash(git ls-files:*)",
+
+      "Bash(gh run view:*)",
+
+      "Bash(cargo clippy:*)",
+      "Bash(cargo build:*)",
+      "Bash(cargo test:*)",
+      "Bash(cargo check:*)",
+      "Bash(cargo fmt:*)",
+
+      "Bash(bun test:*)",
+      "Bash(bun install:*)",
+      "Bash(bun run:*)"
+    ]
+  }
+}
