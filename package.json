@@ -32,9 +32,11 @@
     "build": "napi build --release --platform --strip",
     "build:debug": "napi build --platform",
     "test": "bun test",
+    "generate-fixtures": "bun scripts/generate-fixtures.ts",
     "ci:publish": "napi artifacts && npm publish --access public --provenance"
   },
   "devDependencies": {
+    "@huggingface/transformers": "^3.8.1",
     "@napi-rs/cli": "^3.2.0",
     "@semantic-release/changelog": "^6.0.3",
     "@semantic-release/exec": "^6.0.3",
