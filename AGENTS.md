@@ -1,5 +1,7 @@
 # Agent Instructions
 
+This is a **napi-rs / Bun** project (Rust native addon for Node.js/Bun).
+
 This project uses **bd** (beads) for issue tracking. Run `bd onboard` to get started.
 
 ## Quick Reference
